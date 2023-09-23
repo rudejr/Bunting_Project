@@ -1,0 +1,28 @@
+section {
+  font-family : "Poppins", sans-serif;
+  padding : 5rem 0;
+}
+select:nth-child(2n) {
+  background-color : #f8f8f8;
+}
+section .title {
+  margin-bottom : 3rem;
+}
+section .title h4 {
+  font-size : 1.35rem;
+  color : #ed4848;
+  position : relative;
+}
+section .title h2 {
+  font-size : 3.5rem;
+}
+section .title p {
+  font-size : 1.15rem;
+}
+
+.bg {
+  background : url('0. background.jpg') center center;
+  background-size : cover;
+  background-attachment : fixed;
+  height : 550px;
+}

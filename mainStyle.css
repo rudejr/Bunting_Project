@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Varela+Round&display=swap');
+
+main {
+  width : 100%;
+  height : 100vh;
+  color : rgb(0, 0, 0);
+  /* background : linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url */
+  background : url('0. background.jpg') center center;
+  background-size : cover;
+  display : flex;
+  justify-content : center;
+  align-items : center;
+  text-align : center;
+}
+main h4 {
+  font-size : 2rem;
+}
+main h2 {
+  font-size : 3.5rem;
+  margin : 2rem 0;
+  letter-spacing : 3px;
+  font-family : "varela Round", sans-serif;
+}
+main p {
+  max-width : 500px;
+  margin : 0 auto;
+  font-size : 1.25rem;
+}
+main button.download {
+  background-color : transparent;
+  border : 3px solid rgb(0, 0, 0);
+  border-radius : 20px;
+  padding : 1rem 2rem;
+  margin-top : 3rem;
+  color : rgb(0, 0, 0);
+  font-weight : bold;
+  cursor : pointer;
+}
+
+main h2 span::after {
+  content : "";
+  height : 40px;
+  width : 3px;
+  background-color : #000000;
+  display : inline-block;
+  animation : blink .7s ease-in-out infinite;
+}
+@keyframes blink {
+  0%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+}
